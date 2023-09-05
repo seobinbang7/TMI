@@ -1,11 +1,13 @@
 import useDocumentTitle from '@/hooks/useDocumentTitle';
 
+const Test = (e) => {
+  return <div>Home</div>;
+};
+
 function Home() {
   useDocumentTitle('TECHIT BY LIKELION');
-
-  function hi() {
-    let a = 0;
-    return a;
+  function huskyTest() {
+    return '안녕';
   }
   return (
     <div>
