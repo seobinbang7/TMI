@@ -8,7 +8,7 @@ function Heading() {
         <FramerLogo size={60} />
       </Link>
     </h1>
-  )
+  );
 }
 
 export default Heading;
