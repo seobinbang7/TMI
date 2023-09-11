@@ -1,15 +1,12 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import './App.css';
-import { RootLayout } from './layout/RootLayout';
-import { Home } from './pages/Home';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes';
 
 function App() {
   return (
     <>
-      <div>
-        <h1>안녕하세요</h1>
-        <Home />
+      <div className="App">
+        <RouterProvider router={router} />
       </div>
     </>
   );

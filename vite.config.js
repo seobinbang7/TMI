@@ -56,4 +56,8 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    // 캐시 무효화를 활성화합니다.
+    force: true,
+  },
 });

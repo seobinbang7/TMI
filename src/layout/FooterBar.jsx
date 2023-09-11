@@ -1,12 +1,11 @@
-import Nav from './Nav';
+import Nav from './FooterBar';
 
 function FooterBar() {
   return (
-    <footer className="">
+    <footer>
       <Nav />
-      <h1>hello</h1>
     </footer>
-  )
+  );
 }
 
 export default FooterBar;

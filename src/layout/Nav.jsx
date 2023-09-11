@@ -4,13 +4,13 @@ function Nav() {
   return (
     <ul>
       <li>
-        <Link to="/writing"></Link>
+        <Link href="/writing"></Link>
       </li>
       <li>
-        <Link to="/main"></Link>
+        <Link href="/main"></Link>
       </li>
       <li>
-        <Link to="/myPage"></Link>
+        <Link href="/myPage"></Link>
       </li>
     </ul>
   );

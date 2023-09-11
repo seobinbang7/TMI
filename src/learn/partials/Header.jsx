@@ -7,7 +7,7 @@ function Header() {
         <Logo />
       </h1>
     </header>
-  )
+  );
 }
 
 export default Header;
