@@ -4,7 +4,7 @@ import S from './Heading.module.css';
 
 function Heading() {
   return (
-    <div className={S.HeadingWrapper}>
+    <div className={S.headingWrapper}>
       <h1>
         <Link href="/">
           <Logo size={60} />

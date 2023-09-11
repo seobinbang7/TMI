@@ -1,4 +1,4 @@
-.HeadingWrapper {
+.headingWrapper {
   @apply bg-secondary min-w-[320px] w-full  mt-4 mx-auto;
 }
 

@@ -1,9 +1,9 @@
-function Home() {
+function Mypage() {
   return (
     <div className="flex flex-col items-center">
-      <span>Home</span>
+      <span>Mypage</span>
     </div>
   );
 }
 
-export default Home;
+export default Mypage;
