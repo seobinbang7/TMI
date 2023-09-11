@@ -1,11 +1,7 @@
-import useDocumentTitle from '@/hooks/useDocumentTitle';
-
 function Home() {
-  useDocumentTitle('TECHIT BY LIKELION');
-
   return (
     <div>
-      <>허스키 테스트</>
+      <h1>허스키 테스트</h1>
     </div>
   );
 }
