@@ -7,7 +7,7 @@ import FormInput from '@/components/FormInput/formInput';
 import debounce from '@/utils/debounce';
 import { useEffect } from 'react';
 
-export function Post() {
+function Post() {
   const { postId } = useParams();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fileImages] = useState([]);
@@ -106,3 +106,5 @@ export function Post() {
   }
 }
 
+
+export default Post;
